@@ -5,6 +5,6 @@ soma = num1 + num2
 
 subtracao = num1 - num2
 
-resuldado_final = soma/subtracao
+resultado_final = soma/subtracao
 
 print(f"O resultado da divisão da soma pela subtração é: {resultado_final:.2f}")
