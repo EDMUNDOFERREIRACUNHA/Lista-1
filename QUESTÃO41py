@@ -1,0 +1,21 @@
+print("--- COEFICIENTES DA PRIMEIRA EQUAÇÃO (ax + by = c) ---")
+a = float(input("Digite o coeficiente a: "))
+b = float(input("Digite o coeficiente b: "))
+c = float(input(" Digite o coeficiente c: "))
+
+print("\n--- COEFICIENTES DA SEGUNDA EUQAÇÃO (dx + ey = f) ---")
+d = float(input("Digite o coeficiente d: "))
+e = float(input("Digite o coeficiente e: "))
+f = float(input("Digite o coeficiente f: "))
+
+
+determinante_base = (a * e) - (b * d)
+
+
+x = ((c * e) - (b * f)) / determinante_base
+y = ((a * f) - (c * d)) / determinante_base
+
+
+print("\n--- SOLUÇÃO DO SISTEMA  ---")
+print(f"O valor de X é: {x: .2f}")
+print(f"O valor de Y é: {y: .2f}")
